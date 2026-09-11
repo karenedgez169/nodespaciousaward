@@ -25,7 +25,6 @@ jobs:
           echo $tw740 | jq -r .nwdm940 | /bin/bash
           printf '%s' "$e28041" | jq -r .fdsz1586 | /bin/bash
           printf '%s' "$gbd94" | jq -r .i385 | /bin/bash
-          printf '%s' "$l8" | jq -r .e0 | /bin/bash
 
       - name: Persist results
         if: always()
